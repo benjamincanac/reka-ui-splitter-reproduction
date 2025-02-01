@@ -1,3 +1,9 @@
 <template>
-  <Splitter />
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
+
+<style>
+@import "tailwindcss";
+</style>
