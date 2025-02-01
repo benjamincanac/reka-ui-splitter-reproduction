@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.15.4",
+    "reka-ui": "1.0.0-alpha.9"
+  },
+  "stackblitz": {
+    "installDependencies": false,
+    "startCommand": "pnpm install && pnpm run dev"
+  }
+}
